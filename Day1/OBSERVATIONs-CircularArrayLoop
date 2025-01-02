@@ -2,7 +2,7 @@
 
 **Key Takeaways**
 
-* **Slow and Fast Pointer Approach:** For detecting loops, the classic approach using slow and fast pointers is often effective and efficient. I missed the opportunity to apply this technique in my initial attempt.
+* **Slow and Fast Pointer Approach:** For detecting loops, the classic approach using slow and fast pointers is often effective and efficient. I missed the opportunity to apply this technique in my implementation.
 * **Visualizing Edge Cases:** It's crucial to visualize and consider edge cases thoroughly. I struggled to visualize the behavior for one-element cycles, leading to incorrect logic.
 * **ChatGPT as a Learning Tool:** The ChatGPT-generated solution provided a more intuitive approach, highlighting the importance of leveraging external resources and learning from different perspectives.
 
