@@ -10,7 +10,7 @@ Things I learned while working on FindNextPalindrome
 - Collections.swap()
     * Usage in code: 
     ```Collections.swap(left,i,j);```
-    
+
     * swap items at indices i and j
 
  - new StringBuilder(anotherStringBuilder) : 
@@ -26,22 +26,22 @@ Things I learned while working on FindNextPalindrome
 
     1. Identify the pivot (rightmost smaller digit):
 
-    • Traverse the digits from right to left.
+        • Traverse the digits from right to left.
 
-    • Find the first digit (let’s call it pivot) that is smaller than the digit immediately to its right.
+        • Find the first digit (let’s call it pivot) that is smaller than the digit immediately to its right.
 
-    • If no such digit exists, the number is the largest permutation, and you can return -1.
+        • If no such digit exists, the number is the largest permutation, and you can return -1.
 
     2. Find the smallest larger digit:
 
-    • Traverse the digits to the right of the pivot.
+        • Traverse the digits to the right of the pivot.
 
-    • Find the smallest digit that is larger than the pivot.
+        • Find the smallest digit that is larger than the pivot.
 
     3. Swap the pivot and the smallest larger digit.
 
     4. Reverse the digits to the right of the pivot:
 
-    • This ensures the smallest possible arrangement of digits to the right of the pivot.
+        • This ensures the smallest possible arrangement of digits to the right of the pivot.
 
     5. Return the resulting number.
