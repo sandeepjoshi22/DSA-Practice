@@ -18,5 +18,5 @@ fast != null && fast.next != null
 
 instead I should have used 
 ```java
-fast.next != head && fast..next.next != head
+fast.next != head && fast.next.next != head
 ```
