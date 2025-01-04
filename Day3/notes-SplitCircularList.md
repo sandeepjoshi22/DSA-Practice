@@ -7,11 +7,16 @@ fast != null && fast.next != null
 ```
 This is a valid condition for regular linked lists, but not for circular ones. The correct condition for circular linked lists should have been:
 ```java
-fast.next != head && fast.next.next != head
+fast != head && fast.next != head
 ```
 
 ## 2. Improper Handling of Even and Odd Number of Nodes
 I failed to thoroughly think about managing even and odd numbers of nodes in the list, which led to issues when trying to correctly close the two resulting circular linked lists. This oversight also caused me to use the incorrect condition:
 ```java
 fast != null && fast.next != null
+```
+
+instead I should have used 
+```java
+fast.next != head && fast..next.next != head
 ```
